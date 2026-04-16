@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Courses List</title>
+    <link rel="stylesheet" href="art.css">
+    <style>
+        /* ستايل إضافي للجدول عشان يطلع شيك  مع المينت جرين */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+        th {
+            background-color: #333; 
+            color: #a8e6cf; 
+            text-align: left;
+            padding: 15px;
+        }
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #eee;
+            color: #555;
+        }
+        tr:hover {
+            background-color: #f9f9f9;
+        }
+        tr:last-child td {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Personal Course Organizer</h1>
+        <h4>Your Enrolled Courses</h4>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="add courses.html">Add Courses</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <h2>Courses Table 📊</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Course Name</th>
+                    <th>Instructor</th>
+                    <th>Credit Hours</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Introduction to C</td>
+                    <td>Prof. Amr Ghoniem</td>
+                    <td>3</td>
+                    <td>Fundamentals of programming</td>
+                </tr>
+                <tr>
+                    <td>Web Development</td>
+                    <td>Eng. Engy</td>
+                    <td>4</td>
+                    <td>HTML, CSS and JS basics</td>
+                </tr>
+                <tr>
+                    <td>Data Structures</td>
+                    <td>Dr. Beshoy Said</td>
+                    <td>3</td>
+                    <td>Arrays, linked lists, stacks, queues</td>
+                </tr>
+                <tr>
+                    <td>Math 2</td>
+                    <td>Sarah Ahmed</td>
+                    <td>3</td>
+                    <td>Advanced mathematics concepts</td>
+                </tr>
+                <tr>
+                    <td> English</td>
+                    <td>Mr. George</td>
+                    <td>2</td>
+                    <td>Communication skills</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <p>Copyright © 2026 Personal Course Organizer. All rights reserved.</p>
+    </footer>
+</div>
+
+</body>
+</html>
